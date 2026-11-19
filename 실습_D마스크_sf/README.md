@@ -25,6 +25,7 @@
 | D마스크_sf_사업계획서_v3_교육형.docx | 최종안 Word(교육형) |
 | D마스크_현장증빙요청목록.docx, 증빙요청목록.csv, 증빙요청목록.md | 현장 증빙 요청 25건 + 구축 후 생성 5건 |
 | comparison.md | v1→v3 판별 비교와 남은 결손 |
+| blind_eval/ | 9단계: v1·v2·v3 블라인드 재평가(평가자 2명, 봉인 대응표, 공개 순서 v3>v2>v1) |
 | run/ | 실행 기록(runlog: init·draft1 검증 완료) |
 | manifest.csv, claims.csv | 자료 대장 20건, 결정 대장 15건(확정 5·보류 10, check_evidence.py 통과) |
 

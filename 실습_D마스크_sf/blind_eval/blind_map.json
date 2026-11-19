@@ -1,0 +1,17 @@
+{
+ "seed": 5952554,
+ "map": {
+  "원고_나": {
+   "version": "v1",
+   "sha256": "de208a85950aa854e5d953862b9dacb1c7fb943709f0da508cb8e55f45664ad0"
+  },
+  "원고_다": {
+   "version": "v2",
+   "sha256": "f8a91ba82f12c72588341fdabbac5a9a2db9316cc3119ac7188d699352954eee"
+  },
+  "원고_가": {
+   "version": "v3",
+   "sha256": "68ab9e6e38fcf0544c9542bfcb437da7b334e2237067bf8c5f7c69377fa93c43"
+  }
+ }
+}
