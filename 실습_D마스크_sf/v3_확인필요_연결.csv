@@ -1,0 +1,32 @@
+v3행,표시,연결ID
+15,3개년 매출,REQ-SALES
+16,현장·사무 인원,REQ-HR
+30,수준확인서,REQ-LEVEL
+41,견적 후 산정,REQ-BUDGET
+42,인건비·클라우드 여부,REQ-BUDGET
+88,일 근무 구간 수,REQ-SHIFT
+101,원단 로트·일자 중 현장 기준,REQ-LOTDEF
+110,"허용 오차, 공급사 제안",REQ-TIMESYNC
+112,보존 기간,REQ-RETENTION
+161,시운전 결정,GEN-S2
+162,분전반 배치·채널 수,REQ-SITE
+168,사용 여부·방식,REQ-ERP
+173,(표시만),REQ-PARTNER
+174,(표시만),REQ-PARTNER
+175,PM·데이터·설치,REQ-PARTNER
+176,(표시만),REQ-SITE
+183,"목표치·근거, 대표 결재",REQ-GOAL
+184,사전 실측 기준선 확정 후 설정,GEN-METER-BASE
+200,M1 설치 후 생성,GEN-METER-BASE
+205,사전 실측 기준선 확정 후 대표 결재,GEN-METER-BASE
+208,개당 제조원가,REQ-COST
+208,전기요금 단가,REQ-COST
+215,(표시만),REQ-STAFFING
+216,(표시만),REQ-STAFFING
+217,인원,REQ-HR
+218,(표시만),REQ-PARTNER
+226,시험 전 서면 고정,GEN-AT4-LIMIT
+229,(표시만),REQ-PERIOD
+241,보증·장애 회신 조건,REQ-MAINT
+243,(표시만),REQ-MENTOR
+244,위험성평가·비상연락망,REQ-SAFETY

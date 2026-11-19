@@ -21,6 +21,10 @@
 | review1.md, review1_scores.json, review1_summary.json | 5단계: v1 별도 검토 채점(5인×17항목), 평균·득점률, 최하위 3개 분석 |
 | v2.md, v2_변경기록.md, v1_v2.diff, v2_확인필요_연결.csv | 6단계: 3·4·5절 보강본(공백 제외 5,993자), 변경 기록, 차이 |
 | review2.md, adversarial2.md(.json), review2_scores.json, review2_summary.json | 7단계: v2 재채점, 반대 심사 18건, v3 개정 계획 |
+| v3.md, v3_변경기록.md, v2_v3.diff, v3_확인필요_연결.csv | 8단계: 4·6절 보강 최종 원고(공백 제외 6,000자) |
+| D마스크_sf_사업계획서_v3_교육형.docx | 최종안 Word(교육형) |
+| D마스크_현장증빙요청목록.docx, 증빙요청목록.csv, 증빙요청목록.md | 현장 증빙 요청 25건 + 구축 후 생성 5건 |
+| comparison.md | v1→v3 판별 비교와 남은 결손 |
 | run/ | 실행 기록(runlog: init·draft1 검증 완료) |
 | manifest.csv, claims.csv | 자료 대장 20건, 결정 대장 15건(확정 5·보류 10, check_evidence.py 통과) |
 
