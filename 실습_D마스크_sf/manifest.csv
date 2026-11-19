@@ -7,7 +7,7 @@ D-INT-EQ,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98ef
 D-INT-KW,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:성형기 3대 합계 기준전력은 100 kW로 잡고 있습니다.,가상 반장,C05
 D-INT-HR,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,"text:성형기 등가가동시간은 8월 280시간",가상 반장,C05
 D-INT-METER,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:전력계는 설치되어 있지 않습니다.,가상 반장,C06
-D-INT-CELL,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:후보 칸은 1.인지 × D.제조공정,컨설턴트(모의),C15
+D-INT-CELL,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:후보 칸은 1.인지 × D.제조공정,컨설턴트(모의),
 REQ-QB,missing,,,,현장반장,C04
 REQ-METER,missing,,,,현장반장·공급기업,C06
 REQ-GOAL,missing,,,,대표,C08
@@ -17,7 +17,10 @@ REQ-HR,missing,,,,대표(인사 명부),C11
 REQ-LEVEL,missing,,,,대표(수준확인서),C12
 REQ-SAFETY,missing,,,,현장반장(위험성평가·비상연락망),C13
 REQ-DOWNTIME,missing,,,,현장반장(대기·금형교체 기록),C14
-REQ-IMG,missing,,,,현장반장·공급기업(불량 이미지·유형 표본),C15
+REQ-IMG,missing,,,,현장반장·공급기업(불량 이미지·유형 표본),
 REQ-NAMEPLATE,missing,,,,현장반장(설비 대장·명판),C06
 REQ-MENTOR,missing,,,,대표(멘토단 참여 계획),
 REQ-COST,missing,,,,대표(개당 원가·전기요금 단가),
+D-USR3-KPI,synthetic,sources/stage3_decisions.md,3d95145149805c3a38ab417c8301e66b46eec30552f74ffd698cd38a03f39998,lines:2-3,실습 사용자 지정,C16
+D-USR3-CELL,synthetic,sources/stage3_decisions.md,3d95145149805c3a38ab417c8301e66b46eec30552f74ffd698cd38a03f39998,line:4,실습 사용자 지정,C15
+REQ-EVENTLOG,missing,,,,현장반장·공급기업(설비·시각 단위 불량 기록),C15
