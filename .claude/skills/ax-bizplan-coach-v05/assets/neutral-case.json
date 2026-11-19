@@ -1,0 +1,20 @@
+{
+  "source": "SIM-LEDGER",
+  "period_unit": "month",
+  "columns": {"lot": "batch", "period": "month", "units": "pieces", "defects": "rejects", "kwh": "energy", "power_kw": "rating", "hours": "run_hours"},
+  "quality_boundary": "press output, scrap counted once",
+  "energy": {"kind": "estimated", "boundary": "press circuit", "source": "SIM-INTERVIEW"},
+  "targets": {
+    "defect_rate": [{"value": 0.01, "source": "SIM-INTERVIEW §2", "boundary": "press output, scrap counted once"}],
+    "energy_intensity": [{"value": 0.12, "source": "SIM-INTERVIEW §3", "boundary": "press circuit"}]
+  },
+  "funding": {"total_won": 1000000, "public_won": 500000, "cash_won": 400000, "in_kind_won": 100000, "source": "SIM-BUDGET"},
+  "expenditure": {
+    "quantities": {"circuit-meter": 2},
+    "lines": [
+      {"id": "B01", "kind": "purchase", "module": "power", "qty_ref": "circuit-meter", "unit_won": null, "vat_won": null, "source": null},
+      {"id": "B02", "kind": "labor", "module": "integration", "monthly_won": null, "months": null, "fraction": null, "vat_won": 0, "source": null}
+    ]
+  },
+  "benefits": {"defect_won": 80, "kwh_won": 125, "excludes_energy": true, "added_opex_per_period_won": null, "source": "SIM-COST", "realization": [0.5, 1.0]}
+}

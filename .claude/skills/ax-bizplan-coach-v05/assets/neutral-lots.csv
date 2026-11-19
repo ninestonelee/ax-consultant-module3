@@ -1,0 +1,5 @@
+month,batch,pieces,rejects,energy,rating,run_hours
+S1,P01,800,20,120,6,20
+S1,P02,1200,0,180,6,30
+S2,P03,1000,35,150,6,25
+S2,P04,1000,25,150,6,25

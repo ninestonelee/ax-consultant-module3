@@ -1,0 +1,4 @@
+interface:
+  display_name: "AX 사업계획서 코치 v0.5"
+  short_description: "현장 자료로 사업계획서와 조건별 발주·훈련안을 작성하고 증빙을 검증합니다"
+  default_prompt: "$ax-bizplan-coach-v05로 첨부한 기업 자료를 검산하고 제출 준비형 사업계획서와 증빙 요청표를 작성해 주세요."
