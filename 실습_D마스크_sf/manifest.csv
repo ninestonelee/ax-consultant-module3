@@ -24,3 +24,11 @@ REQ-COST,missing,,,,대표(개당 원가·전기요금 단가),
 D-USR3-KPI,synthetic,sources/stage3_decisions.md,3d95145149805c3a38ab417c8301e66b46eec30552f74ffd698cd38a03f39998,lines:2-3,실습 사용자 지정,C16
 D-USR3-CELL,synthetic,sources/stage3_decisions.md,3d95145149805c3a38ab417c8301e66b46eec30552f74ffd698cd38a03f39998,line:4,실습 사용자 지정,C15
 REQ-EVENTLOG,missing,,,,현장반장·공급기업(설비·시각 단위 불량 기록),C15
+REQ-SALES,missing,,,,대표(3개년 재무제표),
+REQ-TIMESYNC,missing,,,,공급기업(시각 동기 허용 오차),
+REQ-RETENTION,missing,,,,대표(데이터 보존 기간),
+REQ-SITE,missing,,,,공급기업(분전반 배치·채널 수·전기 공사),
+REQ-ERP,missing,,,,대표(ERP 사용 여부),
+REQ-STAFFING,missing,,,,대표(역할별 투입률),
+REQ-PERIOD,missing,,,,해당 회차 공고(협약 기간),
+REQ-MAINT,missing,,,,공급기업(보증·장애 회신 조건),
