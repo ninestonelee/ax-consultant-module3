@@ -1,0 +1,10 @@
+{
+  "previous": "5fde818f0a96efc612139cfb9cf200270f751cd5f1f1154d84e77402d25a2af3",
+  "stage": "review1",
+  "files": {
+    "review1.md": "285c3dabe3da09ef912f3aa411c559dcce7bf3be9601e8f257bce539e122cf35",
+    "review1_scores.json": "99e36c496199e1f4e43ec5c555d65c3008157a33c6dbe25bb6b88a623558d8fe",
+    "review1_summary.json": "b322074b9ff6538e249e8bfb9acaf55759f1d64fb73dbf4dee6414a7f0bb2473"
+  },
+  "time": "2026-11-19T15:58:28.322264+00:00"
+}
