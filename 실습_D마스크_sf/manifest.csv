@@ -19,3 +19,5 @@ REQ-SAFETY,missing,,,,현장반장(위험성평가·비상연락망),C13
 REQ-DOWNTIME,missing,,,,현장반장(대기·금형교체 기록),C14
 REQ-IMG,missing,,,,현장반장·공급기업(불량 이미지·유형 표본),C15
 REQ-NAMEPLATE,missing,,,,현장반장(설비 대장·명판),C06
+REQ-MENTOR,missing,,,,대표(멘토단 참여 계획),
+REQ-COST,missing,,,,대표(개당 원가·전기요금 단가),

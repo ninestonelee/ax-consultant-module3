@@ -14,6 +14,7 @@
 | case.json | 계산기 spec. 전력은 estimated, 경계는 성형기 3대 |
 | checks.json, 지표근거.html | check_case.py 결과(종료코드 0)와 지표→원장행 추적 문서 |
 | values.json | 기준값 사전(계획서에서 인용할 공통 수치) |
+| 02_입력점검_기준선.md | 2단계: 12개 항목 점검, 재계산, 계산 가능/증빙 필요 구분, 기준선 표 |
 | manifest.csv, claims.csv | 자료 대장 20건, 결정 대장 15건(확정 5·보류 10, check_evidence.py 통과) |
 
 ## 합성 원장 (sources/lots.csv)
