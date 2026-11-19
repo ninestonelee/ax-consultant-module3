@@ -20,6 +20,7 @@
 | v1_확인필요_연결.csv | v1의 [확인 필요] 29건 ↔ 요청·생성 ID 연결 |
 | review1.md, review1_scores.json, review1_summary.json | 5단계: v1 별도 검토 채점(5인×17항목), 평균·득점률, 최하위 3개 분석 |
 | v2.md, v2_변경기록.md, v1_v2.diff, v2_확인필요_연결.csv | 6단계: 3·4·5절 보강본(공백 제외 5,993자), 변경 기록, 차이 |
+| review2.md, adversarial2.md(.json), review2_scores.json, review2_summary.json | 7단계: v2 재채점, 반대 심사 18건, v3 개정 계획 |
 | run/ | 실행 기록(runlog: init·draft1 검증 완료) |
 | manifest.csv, claims.csv | 자료 대장 20건, 결정 대장 15건(확정 5·보류 10, check_evidence.py 통과) |
 

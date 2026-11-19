@@ -1,0 +1,12 @@
+{
+  "previous": "0a24564c14a1a9b5786ff85eafa6bd0febce4b52bf330e2c0328300ebaef9641",
+  "stage": "review2",
+  "files": {
+    "review2.md": "34a360d4e013985fbda16653f45e029c03b3b2ca88b4ef59323ae0ffd3f0b7fa",
+    "adversarial2.md": "caa4f3123799066b661a5bc79300172ed6978cd8aea97f24aa21a8bfe1a8b7d6",
+    "review2_scores.json": "db5823f37c827851145d91e988926d8a6a4543a322d2725fa611191150d1d6f0",
+    "review2_summary.json": "66989146b38cecf74321ab80e3974055edce578b298003a52397437c7e463e8b",
+    "adversarial2.json": "6de766b15ed06c75718a1dcd54b9a0da273eb0532205f6925cc6bc41814831bf"
+  },
+  "time": "2026-11-19T16:07:18.138946+00:00"
+}
