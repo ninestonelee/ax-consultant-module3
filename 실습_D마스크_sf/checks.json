@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.3",
+  "source": "D-LEDGER (sources/lots.csv, 교육용 합성값)",
+  "trace": {
+    "csv_sha256": "acb1def41ab91b56798dd975edee9c68f92980d896f4de9469b508159f73003e",
+    "source_rows": [
+      {
+        "row": 2,
+        "lot": "D-2608-A",
+        "period": "2026-08",
+        "units": 520000,
+        "defects": 26000,
+        "kwh": 14500,
+        "power_kw": 100,
+        "hours": 145
+      },
+      {
+        "row": 3,
+        "lot": "D-2608-B",
+        "period": "2026-08",
+        "units": 480000,
+        "defects": 23000,
+        "kwh": 13500,
+        "power_kw": 100,
+        "hours": 135
+      },
+      {
+        "row": 4,
+        "lot": "D-2609-A",
+        "period": "2026-09",
+        "units": 500000,
+        "defects": 24000,
+        "kwh": 15000,
+        "power_kw": 100,
+        "hours": 150
+      },
+      {
+        "row": 5,
+        "lot": "D-2609-B",
+        "period": "2026-09",
+        "units": 500000,
+        "defects": 26000,
+        "kwh": 15000,
+        "power_kw": 100,
+        "hours": 150
+      },
+      {
+        "row": 6,
+        "lot": "D-2610-A",
+        "period": "2026-10",
+        "units": 490000,
+        "defects": 25800,
+        "kwh": 16000,
+        "power_kw": 100,
+        "hours": 160
+      },
+      {
+        "row": 7,
+        "lot": "D-2610-B",
+        "period": "2026-10",
+        "units": 510000,
+        "defects": 25200,
+        "kwh": 16000,
+        "power_kw": 100,
+        "hours": 160
+      }
+    ],
+    "spec_sha256": "7d534c1aa37b94300cee01a24f3caaec055f36841bf9f19108673a00e574003b"
+  },
+  "aggregates": {
+    "all": {
+      "units": 3000000,
+      "defects": 150000,
+      "kwh": 90000,
+      "defect_rate": 0.05,
+      "energy_intensity": 0.03
+    },
+    "periods": {
+      "2026-08": {
+        "units": 1000000,
+        "defects": 49000,
+        "kwh": 28000,
+        "defect_rate": 0.049,
+        "energy_intensity": 0.028
+      },
+      "2026-09": {
+        "units": 1000000,
+        "defects": 50000,
+        "kwh": 30000,
+        "defect_rate": 0.05,
+        "energy_intensity": 0.03
+      },
+      "2026-10": {
+        "units": 1000000,
+        "defects": 51000,
+        "kwh": 32000,
+        "defect_rate": 0.051,
+        "energy_intensity": 0.032
+      }
+    },
+    "period_unit": "month",
+    "mean_units_per_period": 1000000
+  },
+  "metrics": {
+    "defect_rate": {
+      "value": 0.05,
+      "unit": "개/개",
+      "formula": "sum(defects)/sum(units)",
+      "boundary": "완제품 수기 최종검사 기준 최초 불량(재검 합격분도 1회 계수) / 분모 = 월 생산 완제품 수 [가정, 반장 확인 필요]",
+      "source": "D-LEDGER (sources/lots.csv, 교육용 합성값)",
+      "kind": "calculated",
+      "rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "energy_intensity": {
+      "value": 0.03,
+      "unit": "kWh/개",
+      "formula": "sum(kwh)/sum(units)",
+      "boundary": "성형기 3대 합계(실링기 4대 제외)",
+      "source": "D-INT 성형기 합계 기준전력 100 kW × 등가가동시간 (전력계 미설치, 실측 아님)",
+      "kind": "estimated",
+      "rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "targets": {
+    "defect_rate": {
+      "status": "missing",
+      "value": null,
+      "source": null,
+      "candidates": [],
+      "conflicting_candidates": false,
+      "approval": null
+    },
+    "energy_intensity": {
+      "status": "missing",
+      "value": null,
+      "source": null,
+      "candidates": [],
+      "conflicting_candidates": false,
+      "approval": null
+    }
+  },
+  "label_diagnostic": {
+    "candidate_unit": "closed LOT",
+    "candidate_label": "최초 불량수가 1개 이상",
+    "positive_lots": 6,
+    "negative_lots": 0,
+    "excluded_zero_production_lots": 0,
+    "always_alert_f1_on_input": 1,
+    "verified_model_f1": null
+  },
+  "energy_feasibility": {
+    "required_reduction_kwh_per_period": null,
+    "reduction_fraction": null,
+    "recoverable_kwh_per_period": null,
+    "status": "conditional"
+  },
+  "budget": {
+    "funding": {
+      "total_won": null,
+      "public_won": null,
+      "cash_won": null,
+      "in_kind_won": null,
+      "source": null,
+      "balanced": null
+    },
+    "tax_basis": "net",
+    "lines": [],
+    "known_subtotal_won": null,
+    "expenditure_total_won": null,
+    "matches_funding": null
+  },
+  "benefits": {
+    "source": "미수령",
+    "basis": "목표 실현율별 기간당 조건부 시나리오",
+    "scenarios": [
+      {
+        "realization": 0.5,
+        "avoided_quality_won": null,
+        "avoided_energy_won": null,
+        "combined_gross_won": null,
+        "net_after_added_opex_won": null
+      },
+      {
+        "realization": 1,
+        "avoided_quality_won": null,
+        "avoided_energy_won": null,
+        "combined_gross_won": null,
+        "net_after_added_opex_won": null
+      }
+    ]
+  },
+  "diagnostics": [
+    "defect_rate: missing",
+    "energy_intensity: missing",
+    "후보 LOT 정답이 단일 클래스: 해당 정의로 현장 분류 능력 판정 불가",
+    "집계 원장만으로 시점별 특징·라벨·시간 분리 시험 및 실제 F1을 확인할 수 없음",
+    "전력 기준선 추정: 개선 전 같은 회로의 실측 원장 필요",
+    "에너지 목표의 조치별 회피 가능량/근거 미충족",
+    "재원 합계 불일치 또는 미확정",
+    "소요비와 재원 합계 대사 미충족",
+    "제출용 견적·인력 근거가 없는 소요비 존재",
+    "회피비용의 전력비 제외가 미확인/중복되어 합산 보류",
+    "추가 운영비가 없어 순편익 미확정"
+  ]
+}

@@ -1,0 +1,21 @@
+evidence_id,kind,path,sha256,locator,issuer,required_for
+D-LEDGER,synthetic,sources/lots.csv,acb1def41ab91b56798dd975edee9c68f92980d896f4de9469b508159f73003e,lines:2-7,교육 설계자(사용자 지정값·작성자 로트 분할),C01|C02|C03|C05
+D-INT-PROD,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:최근 3개월 생산은 월 100만 개씩입니다.,가상 대표,C01
+D-INT-DEF,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,"text:월별 불량은 8월 4.9만 개",가상 대표,C02
+D-INT-QB,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:재검해서 살린 것도 처음 불량으로 한 번 셉니다,가상 반장,C04
+D-INT-EQ,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,"text:성형기 3대, 실링기 4대를 돌립니다.",가상 반장,C07
+D-INT-KW,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:성형기 3대 합계 기준전력은 100 kW로 잡고 있습니다.,가상 반장,C05
+D-INT-HR,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,"text:성형기 등가가동시간은 8월 280시간",가상 반장,C05
+D-INT-METER,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:전력계는 설치되어 있지 않습니다.,가상 반장,C06
+D-INT-CELL,synthetic,sources/interview.md,db52997f29bae25ef2759e430e28eacbc92c98efc81f5c095eeef1b407f15cbe,text:후보 칸은 1.인지 × D.제조공정,컨설턴트(모의),C15
+REQ-QB,missing,,,,현장반장,C04
+REQ-METER,missing,,,,현장반장·공급기업,C06
+REQ-GOAL,missing,,,,대표,C08
+REQ-BUDGET,missing,,,,대표·공급기업,C09
+REQ-PARTNER,missing,,,,대표,C10
+REQ-HR,missing,,,,대표(인사 명부),C11
+REQ-LEVEL,missing,,,,대표(수준확인서),C12
+REQ-SAFETY,missing,,,,현장반장(위험성평가·비상연락망),C13
+REQ-DOWNTIME,missing,,,,현장반장(대기·금형교체 기록),C14
+REQ-IMG,missing,,,,현장반장·공급기업(불량 이미지·유형 표본),C15
+REQ-NAMEPLATE,missing,,,,현장반장(설비 대장·명판),C06

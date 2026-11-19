@@ -1,0 +1,9 @@
+{
+  "source": "D-LEDGER (sources/lots.csv, 교육용 합성값)",
+  "period_unit": "month",
+  "columns": {"lot": "lot", "period": "month", "units": "units", "defects": "first_defects", "kwh": "kwh_est", "power_kw": "power_kw", "hours": "equiv_hours", "energy_boundary": "energy_boundary", "energy_kind": "energy_kind"},
+  "quality_boundary": "완제품 수기 최종검사 기준 최초 불량(재검 합격분도 1회 계수) / 분모 = 월 생산 완제품 수 [가정, 반장 확인 필요]",
+  "energy": {"kind": "estimated", "boundary": "성형기 3대 합계(실링기 4대 제외)", "source": "D-INT 성형기 합계 기준전력 100 kW × 등가가동시간 (전력계 미설치, 실측 아님)"},
+  "targets": {"defect_rate": [], "energy_intensity": []},
+  "benefits": {"defect_won": null, "kwh_won": null, "excludes_energy": null, "added_opex_per_period_won": null, "source": "미수령", "realization": [0.5, 1.0]}
+}

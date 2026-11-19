@@ -1,0 +1,15 @@
+{
+  "eq.molding": {"value": "3대", "status": "합성 입력(사용자 지정)", "source": "D-INT-EQ", "scope": "성형 공정", "period": "현재", "owner": "현장반장"},
+  "eq.sealing": {"value": "4대", "status": "합성 입력(사용자 지정)", "source": "D-INT-EQ", "scope": "실링 공정", "period": "현재", "owner": "현장반장"},
+  "output.monthly": {"value": "1,000,000개/월", "status": "합성 원장 계산", "source": "sources/lots.csv 2~7행, 월별 2로트 합", "scope": "완제품 생산", "period": "2026-08~10 각 월", "owner": "대표"},
+  "output.total": {"value": "3,000,000개", "status": "합성 원장 계산", "source": "sources/lots.csv 2~7행 합", "scope": "완제품 생산", "period": "2026-08~10", "owner": "대표"},
+  "defect.total": {"value": "150,000개", "status": "합성 원장 계산", "source": "sources/lots.csv 2~7행 합(49,000+50,000+51,000)", "scope": "수기 최종검사 최초 불량(경계 확인 필요)", "period": "2026-08~10", "owner": "현장반장"},
+  "defect.rate.base": {"value": "5.0%", "status": "합성 원장 계산", "source": "checks.json metrics.defect_rate = 150,000/3,000,000", "scope": "수기 최종검사 최초 불량/완제품 생산", "period": "2026-08~10", "owner": "현장반장"},
+  "defect.rate.monthly": {"value": "4.9%·5.0%·5.1%", "status": "합성 원장 계산", "source": "checks.json aggregates.periods", "scope": "동일", "period": "2026-08/09/10", "owner": "현장반장"},
+  "energy.kwh.total": {"value": "90,000 kWh(추정)", "status": "추정(실측 아님)", "source": "100 kW × (280+300+320)h", "scope": "성형기 3대 합계, 실링기 제외", "period": "2026-08~10", "owner": "현장반장"},
+  "energy.intensity.base": {"value": "0.030 kWh/개(추정)", "status": "추정(실측 아님)", "source": "checks.json metrics.energy_intensity = 90,000/3,000,000", "scope": "성형기 3대 합계 kWh / 완제품 생산", "period": "2026-08~10", "owner": "현장반장"},
+  "energy.intensity.monthly": {"value": "0.028·0.030·0.032 kWh/개(추정)", "status": "추정(실측 아님)", "source": "checks.json aggregates.periods", "scope": "동일", "period": "2026-08/09/10", "owner": "현장반장"},
+  "target.defect": {"value": "미정", "status": "미수령", "source": "REQ-GOAL", "scope": "-", "period": "-", "owner": "대표"},
+  "target.energy": {"value": "미정", "status": "미수령(실측 전 설정 불가)", "source": "REQ-METER", "scope": "-", "period": "-", "owner": "대표"},
+  "budget.total": {"value": "견적 미수령", "status": "미수령", "source": "REQ-BUDGET", "scope": "-", "period": "-", "owner": "대표"}
+}
